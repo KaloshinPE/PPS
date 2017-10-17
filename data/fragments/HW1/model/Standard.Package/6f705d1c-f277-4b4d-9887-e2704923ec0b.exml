@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="hw1" version="4">
+  <OBJECT>
+    <ID name="hw1" mc="Standard.Package" uid="6f705d1c-f277-4b4d-9887-e2704923ec0b"/>
+    <PID name="HW1" mc="Standard.Project" uid="9d4574b3-6309-42c6-9d16-440b4599093f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[hw1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="UseCase1" mc="Standard.Package" uid="61c397a4-2478-4a01-8923-a8a9651ddbd9"/>
+        <COMPID name="UseCase2" mc="Standard.Package" uid="b7a5ca71-9620-41bc-b4d0-b37d339afce5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

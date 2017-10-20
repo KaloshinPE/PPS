@@ -14,8 +14,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="UseCase1" mc="Standard.Package" uid="61c397a4-2478-4a01-8923-a8a9651ddbd9"/>
-        <COMPID name="UseCase2" mc="Standard.Package" uid="b7a5ca71-9620-41bc-b4d0-b37d339afce5"/>
+        <COMPID name="ClassDiagram" mc="Standard.Package" uid="61c397a4-2478-4a01-8923-a8a9651ddbd9"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

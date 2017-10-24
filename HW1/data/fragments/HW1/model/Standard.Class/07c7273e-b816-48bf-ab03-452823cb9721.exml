@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="add_repositories" mc="Standard.Operation" uid="ea425585-11d9-4fd7-b22f-b1af098d62ad"/>
+          <ID name="AddRepositories" mc="Standard.Operation" uid="ea425585-11d9-4fd7-b22f-b1af098d62ad"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,13 +25,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[add_repositories]]></ATT>
+            <ATT name="Name"><![CDATA[AddRepositories]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="to_add" mc="Standard.Parameter" uid="6ed8df8a-8816-4c90-847a-032d2142603e"/>
+                <ID name="ToAdd" mc="Standard.Parameter" uid="6ed8df8a-8816-4c90-847a-032d2142603e"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
@@ -43,7 +43,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[to_add]]></ATT>
+                  <ATT name="Name"><![CDATA[ToAdd]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -72,7 +72,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="create_datasets" mc="Standard.Operation" uid="01767d2b-f5cc-4460-98e9-7ab070d08724"/>
+          <ID name="CreateDatasets" mc="Standard.Operation" uid="01767d2b-f5cc-4460-98e9-7ab070d08724"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -80,7 +80,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[create_datasets]]></ATT>
+            <ATT name="Name"><![CDATA[CreateDatasets]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -111,7 +111,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="fit_model" mc="Standard.Operation" uid="eef5daf1-4455-40cf-8860-70e7990e94d6"/>
+          <ID name="FitModel" mc="Standard.Operation" uid="eef5daf1-4455-40cf-8860-70e7990e94d6"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -119,7 +119,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[fit_model]]></ATT>
+            <ATT name="Name"><![CDATA[FitModel]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="predict" mc="Standard.Operation" uid="11ae1d98-4cd4-4671-aa0c-13a0161093eb"/>
+          <ID name="Predict" mc="Standard.Operation" uid="11ae1d98-4cd4-4671-aa0c-13a0161093eb"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,7 +25,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[predict]]></ATT>
+            <ATT name="Name"><![CDATA[Predict]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -80,7 +80,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="fit" mc="Standard.Operation" uid="19222a62-4502-4a99-a92b-de369243e08d"/>
+          <ID name="Fit" mc="Standard.Operation" uid="19222a62-4502-4a99-a92b-de369243e08d"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -88,7 +88,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[fit]]></ATT>
+            <ATT name="Name"><![CDATA[Fit]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -119,7 +119,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="save_weights" mc="Standard.Operation" uid="871c214e-f960-4727-98ba-a0f7ecf5ee3b"/>
+          <ID name="SaveWeights" mc="Standard.Operation" uid="871c214e-f960-4727-98ba-a0f7ecf5ee3b"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -127,13 +127,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[save_weights]]></ATT>
+            <ATT name="Name"><![CDATA[SaveWeights]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="filename" mc="Standard.Parameter" uid="f043c3ea-d17d-4ad8-bbaf-863f8273a363"/>
+                <ID name="FileName" mc="Standard.Parameter" uid="f043c3ea-d17d-4ad8-bbaf-863f8273a363"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -145,7 +145,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[filename]]></ATT>
+                  <ATT name="Name"><![CDATA[FileName]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -158,7 +158,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="load_weights" mc="Standard.Operation" uid="3f98a757-0c00-4833-bf0c-b6e493e3cc71"/>
+          <ID name="LoadWeights" mc="Standard.Operation" uid="3f98a757-0c00-4833-bf0c-b6e493e3cc71"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -166,13 +166,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[load_weights]]></ATT>
+            <ATT name="Name"><![CDATA[LoadWeights]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="filename" mc="Standard.Parameter" uid="2fb33ca0-3eba-4564-8307-5af0852f2a28"/>
+                <ID name="FileName" mc="Standard.Parameter" uid="2fb33ca0-3eba-4564-8307-5af0852f2a28"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -184,7 +184,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[filename]]></ATT>
+                  <ATT name="Name"><![CDATA[FileName]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>

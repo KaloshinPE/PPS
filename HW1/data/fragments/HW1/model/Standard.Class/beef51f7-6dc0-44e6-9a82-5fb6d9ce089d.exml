@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="get_repository() " mc="Standard.Operation" uid="162871e0-1652-4b7e-a426-775622c1b04d"/>
+          <ID name="GetRepository() " mc="Standard.Operation" uid="162871e0-1652-4b7e-a426-775622c1b04d"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,7 +25,7 @@
             <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[get_repository() ]]></ATT>
+            <ATT name="Name"><![CDATA[GetRepository() ]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -56,7 +56,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="get_dataset" mc="Standard.Operation" uid="89853de4-e56d-4d84-9553-b75f0337d5d2"/>
+          <ID name="GetDataset" mc="Standard.Operation" uid="89853de4-e56d-4d84-9553-b75f0337d5d2"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -64,7 +64,7 @@
             <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[get_dataset]]></ATT>
+            <ATT name="Name"><![CDATA[GetDataset]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -136,7 +136,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="calculate_predictions" mc="Standard.Operation" uid="170440e2-dc5c-45f2-85ed-65b56f638d5c"/>
+          <ID name="CalculatePredictions" mc="Standard.Operation" uid="170440e2-dc5c-45f2-85ed-65b56f638d5c"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -144,7 +144,7 @@
             <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[calculate_predictions]]></ATT>
+            <ATT name="Name"><![CDATA[CalculatePredictions]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -214,7 +214,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="init_model" mc="Standard.Operation" uid="ead2a49f-75e9-4cd3-9722-3491b8b761d5"/>
+          <ID name="InitModel" mc="Standard.Operation" uid="ead2a49f-75e9-4cd3-9722-3491b8b761d5"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -222,7 +222,7 @@
             <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[init_model]]></ATT>
+            <ATT name="Name"><![CDATA[InitModel]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -277,7 +277,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="print_predictions" mc="Standard.Operation" uid="ce5d6da8-4317-41d2-8f13-5ba6fb3c81d5"/>
+          <ID name="PrintPredictions" mc="Standard.Operation" uid="ce5d6da8-4317-41d2-8f13-5ba6fb3c81d5"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -285,7 +285,7 @@
             <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[print_predictions]]></ATT>
+            <ATT name="Name"><![CDATA[PrintPredictions]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -318,7 +318,7 @@
       </COMP>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="ML model" mc="Standard.Attribute" uid="8d12004e-0d98-4802-8ccd-5ee2d58a4439"/>
+          <ID name="MLModel" mc="Standard.Attribute" uid="8d12004e-0d98-4802-8ccd-5ee2d58a4439"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -332,7 +332,7 @@
             <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[ML model]]></ATT>
+            <ATT name="Name"><![CDATA[MLModel]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

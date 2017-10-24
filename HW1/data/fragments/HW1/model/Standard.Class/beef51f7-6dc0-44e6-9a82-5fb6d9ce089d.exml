@@ -29,11 +29,11 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <COMP relation="IO">
+            <COMP relation="Return">
               <OBJECT>
-                <ID name="ThisRepo" mc="Standard.Parameter" uid="49828125-5323-454b-bd03-12dfed65cd61"/>
+                <ID name="" mc="Standard.Parameter" uid="61b506f4-7509-4884-8780-45e76a752fc0"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">Out</ATT>
+                  <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
@@ -43,7 +43,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[ThisRepo]]></ATT>
+                  <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -91,10 +91,12 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
+            </COMP>
+            <COMP relation="Return">
               <OBJECT>
-                <ID name="X" mc="Standard.Parameter" uid="3190f149-05c7-434c-8940-2fb28afd59b6"/>
+                <ID name="p3" mc="Standard.Parameter" uid="f43f8a08-e1fb-40ba-82c7-4b104d621e46"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">Out</ATT>
+                  <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
@@ -104,7 +106,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[X]]></ATT>
+                  <ATT name="Name"><![CDATA[p3]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -247,10 +249,12 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
+            </COMP>
+            <COMP relation="Return">
               <OBJECT>
-                <ID name="ML model" mc="Standard.Parameter" uid="3afab1a9-7e06-4032-adf9-fa215eb089af"/>
+                <ID name="p3" mc="Standard.Parameter" uid="d2af4415-12ff-4251-9498-91c18f6c4a9d"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">Out</ATT>
+                  <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
@@ -260,12 +264,12 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[ML model]]></ATT>
+                  <ATT name="Name"><![CDATA[p3]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                    <ID name="ML_model" mc="Standard.Class" uid="fe1b9888-cc2e-4b05-a077-27bf7628b131"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>

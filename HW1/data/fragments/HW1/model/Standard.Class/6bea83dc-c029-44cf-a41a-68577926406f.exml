@@ -88,7 +88,7 @@
               <OBJECT>
                 <ID name="filename" mc="Standard.Parameter" uid="18780507-6f22-40c5-aca9-0f87b3ebe05b"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">Out</ATT>
+                  <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="TypeConstraint"></ATT>

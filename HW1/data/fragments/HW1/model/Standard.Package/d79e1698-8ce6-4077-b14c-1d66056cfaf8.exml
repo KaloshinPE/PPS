@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UseCaseDiagram" version="4">
+  <OBJECT>
+    <ID name="UseCaseDiagram" mc="Standard.Package" uid="d79e1698-8ce6-4077-b14c-1d66056cfaf8"/>
+    <PID name="hw1" mc="Standard.Package" uid="6f705d1c-f277-4b4d-9887-e2704923ec0b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UseCaseDiagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="User" mc="Standard.Actor" uid="ad2e422d-1c86-467f-9b3d-369a1dd58d32"/>
+        <COMPID name="Developer" mc="Standard.Actor" uid="a30d083a-fedb-4369-a84f-28c1d259df9f"/>
+        <COMPID name="DefectPrediction" mc="Standard.UseCase" uid="d5f8024b-a853-4d13-922b-9433e02d9424"/>
+        <COMPID name="UpdateMLModel" mc="Standard.UseCase" uid="2accec90-a6f1-4181-b3d8-a20af37f464e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="UseCaseDiagram Use Case diagram" mc="Standard.UseCaseDiagram" uid="19e09980-14d5-4c07-bbd3-b01f5e247554"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

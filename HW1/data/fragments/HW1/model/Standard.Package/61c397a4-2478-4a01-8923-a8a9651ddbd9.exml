@@ -28,6 +28,8 @@
       </COMP>
       <COMP relation="Product">
         <COMPID name="hw1 Class diagram" mc="Standard.ClassDiagram" uid="2be2b0f2-fc2b-4c04-964d-b3ceefb627c7"/>
+        <COMPID name="usecase1 Class diagram" mc="Standard.ClassDiagram" uid="0a00c79e-9a2e-47f8-ac99-8b27cdb0b6ac"/>
+        <COMPID name="usecase2" mc="Standard.ClassDiagram" uid="f17be6cf-6bb1-4137-a8db-8204e1a8b973"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

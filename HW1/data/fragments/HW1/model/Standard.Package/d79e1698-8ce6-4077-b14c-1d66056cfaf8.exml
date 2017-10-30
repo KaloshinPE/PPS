@@ -13,6 +13,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="DefectPrediction" mc="Standard.Interaction" uid="109d90ff-11ad-4ea2-89b6-077a53e61497"/>
+      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="User" mc="Standard.Actor" uid="ad2e422d-1c86-467f-9b3d-369a1dd58d32"/>
         <COMPID name="Developer" mc="Standard.Actor" uid="a30d083a-fedb-4369-a84f-28c1d259df9f"/>

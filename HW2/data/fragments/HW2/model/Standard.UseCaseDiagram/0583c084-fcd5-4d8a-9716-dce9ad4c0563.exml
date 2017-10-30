@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="hw2 Use Case diagram" version="4">
+  <OBJECT>
+    <ID name="hw2 Use Case diagram" mc="Standard.UseCaseDiagram" uid="0583c084-fcd5-4d8a-9716-dce9ad4c0563"/>
+    <PID name="hw2" mc="Standard.Package" uid="fe67b04e-2873-4710-88d1-5fc86c99be04"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">193</ATT>
+      <ATT name="UiData"><![CDATA[eJztm21z4ioUx79KxvdG86C1U7c7W+11O2sfpr27M3vfdBDQZpuAA7g23/4SNR2NNsUYE2t51ZQkBzj8Dpw/wfbXl8A3/mLGPUq+VCyzXjG+nrdvB38wFIaHZFHFEOEYf6lQNjIDirDvURN5YMRAYGLkCcrMCccQcGxiHweYCB4XxI/1gp8cd2RBd15QMQLwh7LH13rrlfP2HaNjzERoEBDI6nwQ0onoAgHkvV/An+BFO8jE9yu183YtfmHt1QcR+riy0gs7rRc8ep6bkDJszt9VaJ/sDgQIo7iyyxdxj4eKtdxIE4s3DfwiuoMr2cbZZXQhvWdE7kv0sjbvT1rPGfaBwEg2JOG066jI+BuVRP4BBAGGzNVRMeqNlgPrLbc6hKhRdVELVE9PrGYVQXwKkAvrjaaT7nkfcPGD0CnpgwH2E214EMwjo8r509Q2ZM1GVLWx8E67NnsytW/Ux1ekQ4Mx5Z6Qw/KGeQVTnSfPRwxHFvoeFyukOFl45yEXOOL8YXZRPN/u3vmO4J5H0tFSeTgQNlIhjKmDNAgoMZ+wHCcm4eviIZj44jp6/nL+0PfZveJ5bKryKE29hDtD6WooFaCcg6JgkD/R6aMH1wxdUFkTIK/eGQJ/bZXaZOoZh1PKUA7WBIDPj3KKZZi+Y02wiUrT/A3eVzD1CtgS8yc5rBz/MIz/o0QpGPKN2JaO2MOL2AFFYZalpLb4s8m/a7cSxmIUzcWwJpp2RQQeRUvKwt+WQmScKkSGDG3hPS8vbr6MTRkYndkFZWDmpyRy1hZxcS/bA8goAnfReOfEObNc58xxW2eO1do6aKz6EeVdK442BshuOK5br1pwiKquhWB1YAGn2nRaTQtasNU4eWd+VYqXlUoPJwGzVGSvGrJ3zAsAC2+kjZ1m9XV662f17OQqK+J85nsZKZrfLfi9Bh6JkNmVYxU5m+Q4MsvHAOJXZXETl5SlJyxlgZsTrnq63QrX71pa5CUtEqbAgAsGoMjQw02pmJW+tbB5QvBkzseIrEE2F4qJjLJecLUoe4jLSpgUCt5l0JPCdpNCjMiua5iKsM6EbI/RybgEbgvW2jJOjpLbHFGdkZCz0l4e8SwKWAnhcjaLbGXdqwkuY+aNqNj7vtEm0O0sutkjBDMoHcZnhMt/OtE/JWBdtCjWCcWWCQVREhlp2YSdRRG/QWhJ+YNdsBi2NaaHlEzY2STcRoIxLymBKFi6aYQPOYFQ+Cb11pZ6jl+p7HSdmTh1MdvdmT+1uLX5BMZ89HYJsGRfkp9OFaKtaMGpN/u3y2sCMMKfagtVtW27Hs9QXFFV5PnhHfpzjunr8zEc19j16Gm6eP4Ax/6cggW0s/+F5hi41Af/8l9ZlqnP48x4eSf/nIK3E3TQfqazf47KbsUB5lbKGxQ6t/oQudVW4v4gc6uCRbyz/29ux8Clzq32m1vlIc3Ly63cgj+U66D9TLmVm+nH2aXnVu7+f42tc6sCcys3Xf9+gNzKLVgCu5pLnVuVnlu5eUjzEnOron9kroP22HOrdyvqe+SZpzQ58fjFqMvAVLqlD0JZ/yq+ajsSaG6Am35kIlo2ly0WE3TbvVU2815y3o7J7PbM/rffl/ePF986P3r3tz9vunmD+qaV5VHjG5Oo1O0djcMecfj39q6ws07/A5RfeX8=]]></ATT>
+      <ATT name="Name"><![CDATA[hw2 Use Case diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="hw2" mc="Standard.Package" uid="fe67b04e-2873-4710-88d1-5fc86c99be04"/>
+        <REFOBJ>
+          <ID name="Collaboration" mc="Standard.Collaboration" uid="bd253440-1cfd-41dc-b1a3-63861c1c857e"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="5636b6e2-5414-4125-b80a-19ec10ae79fc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

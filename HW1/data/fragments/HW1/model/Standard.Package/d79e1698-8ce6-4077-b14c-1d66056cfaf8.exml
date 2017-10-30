@@ -15,6 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
         <COMPID name="DefectPrediction" mc="Standard.Interaction" uid="109d90ff-11ad-4ea2-89b6-077a53e61497"/>
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="719d495d-782c-48e1-be35-68be31c6fd6c"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="User" mc="Standard.Actor" uid="ad2e422d-1c86-467f-9b3d-369a1dd58d32"/>

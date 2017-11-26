@@ -25,6 +25,7 @@
         <COMPID name="Marker" mc="Standard.Class" uid="0ca995c6-08e2-41de-aa37-3324df2a7141"/>
         <COMPID name="Commit" mc="Standard.Class" uid="da5b6b68-91da-4052-a3e4-0e1c99bd159a"/>
         <COMPID name="Refit_controller" mc="Standard.Class" uid="07c7273e-b816-48bf-ab03-452823cb9721"/>
+        <COMPID name="server" mc="Standard.Interface" uid="d4181e0f-bcd4-473e-95c6-486625882821"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="hw1 Class diagram" mc="Standard.ClassDiagram" uid="2be2b0f2-fc2b-4c04-964d-b3ceefb627c7"/>

@@ -143,11 +143,6 @@
                       <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="429ca430-23e1-4857-8d14-a4ba84951d62"/>
                     </REFOBJ>
                   </LINK>
-                  <LINK relation="Invoked">
-                    <REFOBJ>
-                      <ID name="InitModel" mc="Standard.Operation" uid="ead2a49f-75e9-4cd3-9722-3491b8b761d5"/>
-                    </REFOBJ>
-                  </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
@@ -348,11 +343,6 @@
                   <LINK relation="ReceiveEvent">
                     <REFOBJ>
                       <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="10548e03-e023-4739-87ab-a1be50cccf70"/>
-                    </REFOBJ>
-                  </LINK>
-                  <LINK relation="Invoked">
-                    <REFOBJ>
-                      <ID name="GetRepository() " mc="Standard.Operation" uid="162871e0-1652-4b7e-a426-775622c1b04d"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -1030,7 +1020,7 @@
                   </LINK>
                   <LINK relation="Invoked">
                     <REFOBJ>
-                      <ID name="CalculatePredictions" mc="Standard.Operation" uid="170440e2-dc5c-45f2-85ed-65b56f638d5c"/>
+                      <ID name="GetPredictions" mc="Standard.Operation" uid="170440e2-dc5c-45f2-85ed-65b56f638d5c"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -2257,7 +2247,7 @@
               <OBJECT>
                 <ID name="LoadWeights" mc="Standard.Message" uid="3d289676-7ceb-4d87-92f8-f6110dffd2c4"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
+                  <ATT name="Argument"><![CDATA[FileName]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[LoadWeights]]></ATT>

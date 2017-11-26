@@ -648,11 +648,6 @@
                       <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="a1a3ed92-15a6-410f-bad2-7c8b86e1046f"/>
                     </REFOBJ>
                   </LINK>
-                  <LINK relation="Invoked">
-                    <REFOBJ>
-                      <ID name="GetProject" mc="Standard.Operation" uid="9f3daa2c-647d-460a-aa85-9f5bce5c7ad8"/>
-                    </REFOBJ>
-                  </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
@@ -2727,11 +2722,7 @@
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Base">
-                    <ID name="Project" mc="Standard.Class" uid="4bb29381-4a6d-4597-aa36-4837696a4502"/>
-                  </LINK>
-                </DEPENDENCIES>
+                <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="" mc="Standard.BindableInstance" uid="36a18dc8-d7ee-400c-81ec-2c58294538ee"/>
@@ -2743,11 +2734,7 @@
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Base">
-                    <ID name="Repository" mc="Standard.Class" uid="db25b5de-8e98-4a01-8c6a-b52ba738de5f"/>
-                  </LINK>
-                </DEPENDENCIES>
+                <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="" mc="Standard.BindableInstance" uid="361225fa-ede7-45fa-b092-5ef2560a4061"/>
@@ -2759,11 +2746,7 @@
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Base">
-                    <ID name="Commit" mc="Standard.Class" uid="da5b6b68-91da-4052-a3e4-0e1c99bd159a"/>
-                  </LINK>
-                </DEPENDENCIES>
+                <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="r" mc="Standard.BindableInstance" uid="75904e13-281a-4948-b9be-497105f3f0b0"/>

@@ -18,14 +18,13 @@
         <COMPID name="ML_model" mc="Standard.Class" uid="fe1b9888-cc2e-4b05-a077-27bf7628b131"/>
         <COMPID name="Handler" mc="Standard.Class" uid="faedc9b4-431c-4ebc-98db-316c67ec79aa"/>
         <COMPID name="CI/CD" mc="Standard.Interface" uid="885deca1-64dc-4fac-bfbf-7d6746967f17"/>
-        <COMPID name="Project" mc="Standard.Class" uid="4bb29381-4a6d-4597-aa36-4837696a4502"/>
         <COMPID name="Dataset" mc="Standard.Class" uid="6bea83dc-c029-44cf-a41a-68577926406f"/>
-        <COMPID name="Repository" mc="Standard.Class" uid="db25b5de-8e98-4a01-8c6a-b52ba738de5f"/>
         <COMPID name="git " mc="Standard.Interface" uid="fe182c89-f5b5-40c4-9911-736b8c3585bc"/>
         <COMPID name="Marker" mc="Standard.Class" uid="0ca995c6-08e2-41de-aa37-3324df2a7141"/>
-        <COMPID name="Commit" mc="Standard.Class" uid="da5b6b68-91da-4052-a3e4-0e1c99bd159a"/>
         <COMPID name="Refit_controller" mc="Standard.Class" uid="07c7273e-b816-48bf-ab03-452823cb9721"/>
         <COMPID name="server" mc="Standard.Interface" uid="d4181e0f-bcd4-473e-95c6-486625882821"/>
+        <COMPID name="Server" mc="Standard.Class" uid="5527c975-3661-4e90-9636-0e8cd152270e"/>
+        <COMPID name="JavaHandler" mc="Standard.Class" uid="87344808-eee4-4467-9b7d-b09b85eae710"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="hw1 Class diagram" mc="Standard.ClassDiagram" uid="2be2b0f2-fc2b-4c04-964d-b3ceefb627c7"/>

@@ -1795,11 +1795,6 @@
                       <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="0c769bbd-99da-406b-9c2d-f00302f2ee2f"/>
                     </REFOBJ>
                   </LINK>
-                  <LINK relation="Invoked">
-                    <REFOBJ>
-                      <ID name="PrintLog" mc="Standard.Operation" uid="63dba5fd-1e8f-4fdf-82c2-93ad2dd64cb1"/>
-                    </REFOBJ>
-                  </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
@@ -2774,11 +2769,7 @@
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Base">
-                    <ID name="CI/CD" mc="Standard.Interface" uid="885deca1-64dc-4fac-bfbf-7d6746967f17"/>
-                  </LINK>
-                </DEPENDENCIES>
+                <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="" mc="Standard.BindableInstance" uid="31b8cc0a-8448-4d95-8432-3c06a2008632"/>

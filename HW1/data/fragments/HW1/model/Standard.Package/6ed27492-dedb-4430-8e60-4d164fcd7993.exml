@@ -15,58 +15,71 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <OBJECT>
-          <ID name="DP_Collaboration" mc="Standard.Collaboration" uid="49817d61-6ef1-4b6a-bfa0-e4b8ac0d5df9"/>
+          <ID name="DefectPrediction" mc="Standard.Collaboration" uid="4723e2d6-9e8b-4dbe-8169-0362137c4943"/>
           <ATTRIBUTES>
             <ATT name="IsConcurrent">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="IsLeaf">false</ATT>
             <ATT name="IsRoot">false</ATT>
             <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[DP_Collaboration]]></ATT>
+            <ATT name="Name"><![CDATA[DefectPrediction]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <COMP relation="OwnedCollaborationUse">
-              <OBJECT>
-                <ID name="DefectPreduction" mc="Standard.CollaborationUse" uid="13e320ca-32a1-45be-bbdb-759070c463d5"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[DefectPreduction]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="UpdateMlModel" mc="Standard.CollaborationUse" uid="1ad056c8-aa93-4ecd-9a55-285a2abaa818"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[UpdateMlModel]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-            </COMP>
             <COMP relation="Declared">
               <OBJECT>
-                <ID name="Project" mc="Standard.BindableInstance" uid="e9e419f1-61b7-4427-8772-5a3f7a1d53fd"/>
+                <ID name="application" mc="Standard.BindableInstance" uid="6546de36-8c51-4463-af42-a71a55865956"/>
                 <ATTRIBUTES>
                   <ATT name="IsConstant">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[Project]]></ATT>
+                  <ATT name="Name"><![CDATA[application]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Application" mc="Standard.Class" uid="beef51f7-6dc0-44e6-9a82-5fb6d9ce089d"/>
+                  </LINK>
                   <COMP relation="DependsOnDependency">
                     <OBJECT>
-                      <ID name="getProject" mc="Standard.Usage" uid="afcf28e4-6123-4a67-809e-59f5e1cb8b42"/>
+                      <ID name="" mc="Standard.Usage" uid="6bf9f362-6079-460a-9dcd-df86ef731a63"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[getProject]]></ATT>
+                        <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
                         <LINK relation="DependsOn">
                           <REFOBJ>
-                            <ID name="Repository" mc="Standard.BindableInstance" uid="54af153f-407a-4f25-ae79-bfa13a912037"/>
+                            <ID name="dataset" mc="Standard.BindableInstance" uid="20b6c63e-f1bf-4681-9ce7-d9d1d4b48504"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="" mc="Standard.Usage" uid="a40479cc-a8f1-481c-8de5-20fe35451a74"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="Handler" mc="Standard.BindableInstance" uid="591c51d7-1c04-4e74-9f72-37f053da9039"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="" mc="Standard.Usage" uid="230b45e5-0dd0-4ce7-a9b1-10a7c489720f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="server" mc="Standard.BindableInstance" uid="2c8eec29-4f17-4d66-9adc-c8d62119cc55"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -75,19 +88,7 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Dataset" mc="Standard.BindableInstance" uid="5324a8fd-d16d-4bd6-b46b-741e725e2070"/>
-                <ATTRIBUTES>
-                  <ATT name="IsConstant">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[Dataset]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="Handler" mc="Standard.BindableInstance" uid="5133d1ab-7e45-46dc-9171-7014821e6a8b"/>
+                <ID name="Handler" mc="Standard.BindableInstance" uid="591c51d7-1c04-4e74-9f72-37f053da9039"/>
                 <ATTRIBUTES>
                   <ATT name="IsConstant">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -97,31 +98,52 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Handler" mc="Standard.Class" uid="faedc9b4-431c-4ebc-98db-316c67ec79aa"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="dataset" mc="Standard.BindableInstance" uid="20b6c63e-f1bf-4681-9ce7-d9d1d4b48504"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[dataset]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Dataset" mc="Standard.Class" uid="6bea83dc-c029-44cf-a41a-68577926406f"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="server" mc="Standard.BindableInstance" uid="2c8eec29-4f17-4d66-9adc-c8d62119cc55"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[server]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Server" mc="Standard.Class" uid="5527c975-3661-4e90-9636-0e8cd152270e"/>
+                  </LINK>
                   <COMP relation="DependsOnDependency">
                     <OBJECT>
-                      <ID name="calculate" mc="Standard.Usage" uid="8625132f-d0db-41d7-8470-ea82b0969cfc"/>
+                      <ID name="" mc="Standard.Usage" uid="a3496037-393c-475c-8bce-7a9caf0ee056"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[calculate]]></ATT>
+                        <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
                         <LINK relation="DependsOn">
                           <REFOBJ>
-                            <ID name="Project" mc="Standard.BindableInstance" uid="e9e419f1-61b7-4427-8772-5a3f7a1d53fd"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                    <OBJECT>
-                      <ID name="calculate" mc="Standard.Usage" uid="32c8729a-9a1f-40ee-8b67-b1b6ba86ffa4"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[calculate]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="DependsOn">
-                          <REFOBJ>
-                            <ID name="Dataset" mc="Standard.BindableInstance" uid="5324a8fd-d16d-4bd6-b46b-741e725e2070"/>
+                            <ID name="" mc="Standard.BindableInstance" uid="a8473493-d7f9-492b-8b0e-98275f21ff32"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -130,27 +152,90 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Marker" mc="Standard.BindableInstance" uid="2dff4a9f-b7b3-4786-a3be-391cadac54ee"/>
+                <ID name="" mc="Standard.BindableInstance" uid="a8473493-d7f9-492b-8b0e-98275f21ff32"/>
                 <ATTRIBUTES>
                   <ATT name="IsConstant">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[Marker]]></ATT>
+                  <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="server" mc="Standard.Interface" uid="d4181e0f-bcd4-473e-95c6-486625882821"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Maintenance" mc="Standard.Collaboration" uid="29ff8e5c-791e-4104-a112-be6d89baa4d4"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Maintenance]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="controller" mc="Standard.BindableInstance" uid="39ba6752-cf06-47bf-88cd-b2e93c8fc31d"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[controller]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="RefitController" mc="Standard.Class" uid="07c7273e-b816-48bf-ab03-452823cb9721"/>
+                  </LINK>
                   <COMP relation="DependsOnDependency">
                     <OBJECT>
-                      <ID name="getNewData" mc="Standard.Usage" uid="8e526eae-0095-498f-9b13-db0aca4cb228"/>
+                      <ID name="" mc="Standard.Usage" uid="e2b07782-8a65-4712-ba3c-4b4799151e5c"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[getNewData]]></ATT>
+                        <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
                         <LINK relation="DependsOn">
                           <REFOBJ>
-                            <ID name="Repository" mc="Standard.BindableInstance" uid="54af153f-407a-4f25-ae79-bfa13a912037"/>
+                            <ID name="model" mc="Standard.BindableInstance" uid="f5968a4c-331c-4d66-b5bd-e9e2d4660ab1"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="" mc="Standard.Usage" uid="0e229b19-8b6d-4cd6-9e80-320afd1b4997"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="marker" mc="Standard.BindableInstance" uid="bed9bca8-7e9c-46a7-88c3-72abadba5b3d"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="" mc="Standard.Usage" uid="80b19d1a-fed9-44c2-9bc2-a4bce535b973"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="DependsOn">
+                          <REFOBJ>
+                            <ID name="dataset" mc="Standard.BindableInstance" uid="5e336a19-c6a5-4144-9e4e-3ec09277f82c"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -159,58 +244,99 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Repository" mc="Standard.BindableInstance" uid="54af153f-407a-4f25-ae79-bfa13a912037"/>
+                <ID name="marker" mc="Standard.BindableInstance" uid="bed9bca8-7e9c-46a7-88c3-72abadba5b3d"/>
                 <ATTRIBUTES>
                   <ATT name="IsConstant">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[Repository]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="ML_model" mc="Standard.BindableInstance" uid="bf0dd9d6-8668-44f9-a694-1ef872182143"/>
-                <ATTRIBUTES>
-                  <ATT name="IsConstant">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[ML_model]]></ATT>
+                  <ATT name="Name"><![CDATA[marker]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Marker" mc="Standard.Class" uid="0ca995c6-08e2-41de-aa37-3324df2a7141"/>
+                  </LINK>
                   <COMP relation="DependsOnDependency">
                     <OBJECT>
-                      <ID name="fit" mc="Standard.Usage" uid="48fae8be-e7c7-4f1d-a40f-b8a87395b9a9"/>
+                      <ID name="" mc="Standard.Usage" uid="c609acf3-e7c2-46ab-82d0-1a6b8d53d500"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[fit]]></ATT>
+                        <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
                         <LINK relation="DependsOn">
                           <REFOBJ>
-                            <ID name="Dataset" mc="Standard.BindableInstance" uid="5324a8fd-d16d-4bd6-b46b-741e725e2070"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                    <OBJECT>
-                      <ID name="predict" mc="Standard.Usage" uid="cb8f4135-83c7-41cc-9486-35f67675f0a3"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[predict]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="DependsOn">
-                          <REFOBJ>
-                            <ID name="Dataset" mc="Standard.BindableInstance" uid="5324a8fd-d16d-4bd6-b46b-741e725e2070"/>
+                            <ID name="" mc="Standard.BindableInstance" uid="19a9cd76-3f8e-4e63-b826-80233e70130c"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
                     </OBJECT>
                   </COMP>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.Note" uid="530953d3-b0aa-470e-b314-670a87a12916"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                        <ATT name="MimeType"></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="model" mc="Standard.BindableInstance" uid="f5968a4c-331c-4d66-b5bd-e9e2d4660ab1"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[model]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="ML_model" mc="Standard.Class" uid="fe1b9888-cc2e-4b05-a077-27bf7628b131"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="dataset" mc="Standard.BindableInstance" uid="5e336a19-c6a5-4144-9e4e-3ec09277f82c"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[dataset]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Dataset" mc="Standard.Class" uid="6bea83dc-c029-44cf-a41a-68577926406f"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="" mc="Standard.BindableInstance" uid="19a9cd76-3f8e-4e63-b826-80233e70130c"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="git " mc="Standard.Interface" uid="fe182c89-f5b5-40c4-9911-736b8c3585bc"/>
+                  </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
@@ -218,7 +344,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="CooperationDiagram Class diagram" mc="Standard.ClassDiagram" uid="9e2204c0-2578-418b-a8a9-df1cf7a16efb"/>
+        <COMPID name="Cooperations" mc="Standard.ClassDiagram" uid="9e2204c0-2578-418b-a8a9-df1cf7a16efb"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

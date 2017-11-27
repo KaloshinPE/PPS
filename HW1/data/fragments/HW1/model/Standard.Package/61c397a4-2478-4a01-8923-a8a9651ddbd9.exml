@@ -17,14 +17,20 @@
         <COMPID name="Application" mc="Standard.Class" uid="beef51f7-6dc0-44e6-9a82-5fb6d9ce089d"/>
         <COMPID name="ML_model" mc="Standard.Class" uid="fe1b9888-cc2e-4b05-a077-27bf7628b131"/>
         <COMPID name="Handler" mc="Standard.Class" uid="faedc9b4-431c-4ebc-98db-316c67ec79aa"/>
-        <COMPID name="CI/CD" mc="Standard.Interface" uid="885deca1-64dc-4fac-bfbf-7d6746967f17"/>
         <COMPID name="Dataset" mc="Standard.Class" uid="6bea83dc-c029-44cf-a41a-68577926406f"/>
         <COMPID name="git " mc="Standard.Interface" uid="fe182c89-f5b5-40c4-9911-736b8c3585bc"/>
         <COMPID name="Marker" mc="Standard.Class" uid="0ca995c6-08e2-41de-aa37-3324df2a7141"/>
-        <COMPID name="Refit_controller" mc="Standard.Class" uid="07c7273e-b816-48bf-ab03-452823cb9721"/>
+        <COMPID name="RefitController" mc="Standard.Class" uid="07c7273e-b816-48bf-ab03-452823cb9721"/>
         <COMPID name="server" mc="Standard.Interface" uid="d4181e0f-bcd4-473e-95c6-486625882821"/>
         <COMPID name="Server" mc="Standard.Class" uid="5527c975-3661-4e90-9636-0e8cd152270e"/>
         <COMPID name="JavaHandler" mc="Standard.Class" uid="87344808-eee4-4467-9b7d-b09b85eae710"/>
+        <COMPID name="mlda_svm_stack" mc="Standard.Class" uid="cb522b75-b16d-4519-95fe-3f6f5337687e"/>
+        <COMPID name="NormScaler" mc="Standard.Class" uid="a4b79531-2065-4961-9c13-cb42342fb534"/>
+        <COMPID name="DenoisingAutoencoder" mc="Standard.Class" uid="1b2a6148-8b21-49aa-bfdf-52d6b80d4592"/>
+        <COMPID name="sklearn" mc="Standard.Package" uid="c4a37f2a-bf7b-4233-901b-0311688f3e71"/>
+        <COMPID name="skjm.sh" mc="Standard.Artifact" uid="87510c9b-c837-4913-aae1-d41c0c5ceba8"/>
+        <COMPID name="model.save" mc="Standard.Artifact" uid="61877fdd-4e6e-4d5b-aba5-839cd7cc6ad0"/>
+        <COMPID name="dataset" mc="Standard.Artifact" uid="6486dc9e-d340-4164-8961-616c9f81b377"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="hw1 Class diagram" mc="Standard.ClassDiagram" uid="2be2b0f2-fc2b-4c04-964d-b3ceefb627c7"/>

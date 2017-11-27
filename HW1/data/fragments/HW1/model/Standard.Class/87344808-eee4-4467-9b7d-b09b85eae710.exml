@@ -30,6 +30,20 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Standard.Usage" uid="a8b1a7ee-4109-4574-b55d-1a5ce741fc04"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="skjm.sh" mc="Standard.Artifact" uid="87510c9b-c837-4913-aae1-d41c0c5ceba8"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

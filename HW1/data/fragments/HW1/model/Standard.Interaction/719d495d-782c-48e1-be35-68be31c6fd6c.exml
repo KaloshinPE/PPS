@@ -83,11 +83,6 @@
                       <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="0bdc7a6d-93f9-4b46-92ab-e5c86825afac"/>
                     </REFOBJ>
                   </LINK>
-                  <LINK relation="Invoked">
-                    <REFOBJ>
-                      <ID name="AddRepositories" mc="Standard.Operation" uid="ea425585-11d9-4fd7-b22f-b1af098d62ad"/>
-                    </REFOBJ>
-                  </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
@@ -2529,7 +2524,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Base">
-                    <ID name="Refit_controller" mc="Standard.Class" uid="07c7273e-b816-48bf-ab03-452823cb9721"/>
+                    <ID name="RefitController" mc="Standard.Class" uid="07c7273e-b816-48bf-ab03-452823cb9721"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Maintenance" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AddRepositories" version="4">
   <OBJECT>
-    <ID name="Maintenance" mc="Standard.UseCase" uid="2accec90-a6f1-4181-b3d8-a20af37f464e"/>
+    <ID name="AddRepositories" mc="Standard.UseCase" uid="27fd22b7-8a19-46e9-90e3-4128c13be154"/>
     <PID name="UseCaseDiagram" mc="Standard.Package" uid="d79e1698-8ce6-4077-b14c-1d66056cfaf8"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,45 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Maintenance]]></ATT>
+      <ATT name="Name"><![CDATA[AddRepositories]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="Used">
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="fa55594c-c456-4f89-b7ae-5e7fa2bdc13c"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="AddRepositories" mc="Standard.UseCase" uid="27fd22b7-8a19-46e9-90e3-4128c13be154"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="340a5014-ca69-46ec-bf65-c18276dc376d"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="RefitMLModel" mc="Standard.UseCase" uid="f4d3f780-80ac-40e7-8e38-c2965e7072e3"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="0208c680-f03b-45b2-98ea-5693e4cd445c"/>
+          <ID name="" mc="Infrastructure.Note" uid="dc3e1323-b4f4-4b78-a084-673df0e3db9c"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -61,7 +29,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="828c440b-4568-4d24-9b22-8ae2af0e77a4"/>
+          <ID name="" mc="Infrastructure.Note" uid="1fcbef4a-4889-476a-a2a1-3bb9423207a5"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -75,7 +43,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="f24b77b6-7ec2-4f58-becc-e7ab02d60aa1"/>
+          <ID name="" mc="Infrastructure.Note" uid="747f3ee1-190d-4005-9ca3-66c6aae8b3dd"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -89,7 +57,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="484cd01e-a8b9-4edf-8214-027d06d03ed9"/>
+          <ID name="" mc="Infrastructure.Note" uid="5d29f9a6-a962-4f36-a418-52eac10072f3"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -103,7 +71,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="86553b3a-17a3-4f03-994a-45af055f1f22"/>
+          <ID name="" mc="Infrastructure.Note" uid="7a2cdfa9-9809-4a00-96f7-b52915e93539"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -117,7 +85,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="dcc9809b-34bb-46cf-8e0c-f2a18994c2df"/>
+          <ID name="" mc="Infrastructure.Note" uid="1a938e30-17cd-48e8-ad6e-c8b435ddf102"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

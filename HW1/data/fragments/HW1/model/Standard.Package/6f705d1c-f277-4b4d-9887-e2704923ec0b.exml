@@ -17,6 +17,7 @@
         <COMPID name="ClassDiagram" mc="Standard.Package" uid="61c397a4-2478-4a01-8923-a8a9651ddbd9"/>
         <COMPID name="UseCaseDiagram" mc="Standard.Package" uid="d79e1698-8ce6-4077-b14c-1d66056cfaf8"/>
         <COMPID name="CooperationDiagram" mc="Standard.Package" uid="6ed27492-dedb-4430-8e60-4d164fcd7993"/>
+        <COMPID name="SequenceDiagramm" mc="Standard.Package" uid="3882de38-1324-4354-9379-d52b505d4d11"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

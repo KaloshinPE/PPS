@@ -33,9 +33,9 @@
         <COMPID name="dataset" mc="Standard.Artifact" uid="6486dc9e-d340-4164-8961-616c9f81b377"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="hw1 Class diagram" mc="Standard.ClassDiagram" uid="2be2b0f2-fc2b-4c04-964d-b3ceefb627c7"/>
-        <COMPID name="usecase1 Class diagram" mc="Standard.ClassDiagram" uid="0a00c79e-9a2e-47f8-ac99-8b27cdb0b6ac"/>
-        <COMPID name="usecase2" mc="Standard.ClassDiagram" uid="f17be6cf-6bb1-4137-a8db-8204e1a8b973"/>
+        <COMPID name="FullDiagramm" mc="Standard.ClassDiagram" uid="2be2b0f2-fc2b-4c04-964d-b3ceefb627c7"/>
+        <COMPID name="DefectPrediction" mc="Standard.ClassDiagram" uid="166b209e-1f19-4d45-a066-51f2112cfb01"/>
+        <COMPID name="Maintenance" mc="Standard.ClassDiagram" uid="02cc894e-5145-4568-968d-617161cc95bc"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

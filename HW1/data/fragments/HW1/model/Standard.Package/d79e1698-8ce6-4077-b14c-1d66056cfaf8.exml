@@ -13,15 +13,13 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedBehavior">
-        <COMPID name="DefectPrediction" mc="Standard.Interaction" uid="109d90ff-11ad-4ea2-89b6-077a53e61497"/>
-        <COMPID name="Interaction" mc="Standard.Interaction" uid="719d495d-782c-48e1-be35-68be31c6fd6c"/>
-      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="User" mc="Standard.Actor" uid="ad2e422d-1c86-467f-9b3d-369a1dd58d32"/>
         <COMPID name="Developer" mc="Standard.Actor" uid="a30d083a-fedb-4369-a84f-28c1d259df9f"/>
         <COMPID name="DefectPrediction" mc="Standard.UseCase" uid="d5f8024b-a853-4d13-922b-9433e02d9424"/>
-        <COMPID name="UpdateMLModel" mc="Standard.UseCase" uid="2accec90-a6f1-4181-b3d8-a20af37f464e"/>
+        <COMPID name="Maintenance" mc="Standard.UseCase" uid="2accec90-a6f1-4181-b3d8-a20af37f464e"/>
+        <COMPID name="AddRepositories" mc="Standard.UseCase" uid="27fd22b7-8a19-46e9-90e3-4128c13be154"/>
+        <COMPID name="RefitMLModel" mc="Standard.UseCase" uid="f4d3f780-80ac-40e7-8e38-c2965e7072e3"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="UseCaseDiagram Use Case diagram" mc="Standard.UseCaseDiagram" uid="19e09980-14d5-4c07-bbd3-b01f5e247554"/>

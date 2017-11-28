@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SequenceDiagramm" version="4">
+  <OBJECT>
+    <ID name="SequenceDiagramm" mc="Standard.Package" uid="3882de38-1324-4354-9379-d52b505d4d11"/>
+    <PID name="hw1" mc="Standard.Package" uid="6f705d1c-f277-4b4d-9887-e2704923ec0b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SequenceDiagramm]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="DefectPrediction" mc="Standard.Interaction" uid="175a4b00-1e05-4627-a9e8-c879e1ec4fc6"/>
+        <COMPID name="AddRepositories" mc="Standard.Interaction" uid="b6fc7174-6dab-4507-bdd0-85ee7c863211"/>
+        <COMPID name="RefitMLModel" mc="Standard.Interaction" uid="cf6c260f-75df-4aec-95e4-2123df800f19"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

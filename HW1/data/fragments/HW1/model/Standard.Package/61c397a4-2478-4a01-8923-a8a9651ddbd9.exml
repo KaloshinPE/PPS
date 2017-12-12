@@ -25,12 +25,10 @@
         <COMPID name="Server" mc="Standard.Class" uid="5527c975-3661-4e90-9636-0e8cd152270e"/>
         <COMPID name="JavaHandler" mc="Standard.Class" uid="87344808-eee4-4467-9b7d-b09b85eae710"/>
         <COMPID name="mlda_svm_stack" mc="Standard.Class" uid="cb522b75-b16d-4519-95fe-3f6f5337687e"/>
-        <COMPID name="NormScaler" mc="Standard.Class" uid="a4b79531-2065-4961-9c13-cb42342fb534"/>
-        <COMPID name="DenoisingAutoencoder" mc="Standard.Class" uid="1b2a6148-8b21-49aa-bfdf-52d6b80d4592"/>
-        <COMPID name="sklearn" mc="Standard.Package" uid="c4a37f2a-bf7b-4233-901b-0311688f3e71"/>
         <COMPID name="skjm.sh" mc="Standard.Artifact" uid="87510c9b-c837-4913-aae1-d41c0c5ceba8"/>
         <COMPID name="model.save" mc="Standard.Artifact" uid="61877fdd-4e6e-4d5b-aba5-839cd7cc6ad0"/>
         <COMPID name="dataset" mc="Standard.Artifact" uid="6486dc9e-d340-4164-8961-616c9f81b377"/>
+        <COMPID name="main" mc="Standard.Class" uid="786bdb38-06d4-41d0-bbb6-6e98f787ac10"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="FullDiagramm" mc="Standard.ClassDiagram" uid="2be2b0f2-fc2b-4c04-964d-b3ceefb627c7"/>

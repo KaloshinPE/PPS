@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="NormScaler" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="main" version="4">
   <OBJECT>
-    <ID name="NormScaler" mc="Standard.Class" uid="a4b79531-2065-4961-9c13-cb42342fb534"/>
+    <ID name="main" mc="Standard.Class" uid="786bdb38-06d4-41d0-bbb6-6e98f787ac10"/>
     <PID name="ClassDiagram" mc="Standard.Package" uid="61c397a4-2478-4a01-8923-a8a9651ddbd9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[NormScaler]]></ATT>
+      <ATT name="Name"><![CDATA[main]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

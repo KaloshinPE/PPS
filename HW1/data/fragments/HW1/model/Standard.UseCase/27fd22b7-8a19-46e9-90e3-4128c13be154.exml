@@ -27,6 +27,23 @@
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
             </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="Note" mc="Infrastructure.Note" uid="a44c6b81-8101-4ed1-b223-cf68463e1705"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<p><strong>Условие:</strong> {разработчик запускает скрипт, передавая ему параметры data, dir}</p><p><strong>Точка расширения: </strong>RefitMLModel</p>
+]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"><![CDATA[Note]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

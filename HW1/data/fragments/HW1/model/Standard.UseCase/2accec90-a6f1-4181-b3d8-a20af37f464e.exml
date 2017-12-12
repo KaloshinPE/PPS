@@ -13,6 +13,26 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedExtension">
+        <OBJECT>
+          <ID name="RefitMLModel" mc="Standard.ExtensionPoint" uid="615755e0-576e-4d91-a84c-8ac7f43c0800"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[RefitMLModel]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="AddRepositories" mc="Standard.ExtensionPoint" uid="3259a648-aeb7-455a-b051-8b83c9d7dc44"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[AddRepositories]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="0208c680-f03b-45b2-98ea-5693e4cd445c"/>

@@ -53,7 +53,7 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="LabledDataset" mc="Standard.Parameter" uid="50e782ef-0ef9-4af7-885e-6cda3a2cfd01"/>
+                <ID name="DestinationDirectory" mc="Standard.Parameter" uid="2f35e84d-8855-4430-ac38-dd27c3981c71"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -65,12 +65,12 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[LabledDataset]]></ATT>
+                  <ATT name="Name"><![CDATA[DestinationDirectory]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <ID name="Dataset" mc="Standard.Class" uid="6bea83dc-c029-44cf-a41a-68577926406f"/>
+                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>

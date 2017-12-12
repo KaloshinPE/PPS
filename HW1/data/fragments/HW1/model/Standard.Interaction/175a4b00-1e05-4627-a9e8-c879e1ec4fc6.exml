@@ -120,7 +120,7 @@
               <OBJECT>
                 <ID name="GetToken" mc="Standard.Message" uid="8edf9c34-7264-4c9c-8915-1080cb5a8ebe"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
+                  <ATT name="Argument"><![CDATA[email, password]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[GetToken]]></ATT>
@@ -248,7 +248,7 @@
               <OBJECT>
                 <ID name="Post" mc="Standard.Message" uid="942c6ee9-6783-40a8-8179-f5f239452058"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
+                  <ATT name="Argument"><![CDATA[data]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[Post]]></ATT>
@@ -521,7 +521,7 @@
               <OBJECT>
                 <ID name="Predict" mc="Standard.Message" uid="f966f185-d2d4-404a-b5f6-c9801fbdd451"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
+                  <ATT name="Argument"><![CDATA[Dataset]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[Predict]]></ATT>
@@ -535,7 +535,7 @@
                   </LINK>
                   <LINK relation="Invoked">
                     <REFOBJ>
-                      <ID name="Predict" mc="Standard.Operation" uid="37ed0a95-753c-4b19-a0d4-da1763d95e54"/>
+                      <ID name="GetPredictions" mc="Standard.Operation" uid="37ed0a95-753c-4b19-a0d4-da1763d95e54"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -649,7 +649,7 @@
               <OBJECT>
                 <ID name="Post" mc="Standard.Message" uid="33c37bd6-07d5-4663-a3ea-a9bc092b0f7e"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
+                  <ATT name="Argument"><![CDATA[data]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[Post]]></ATT>
@@ -1101,7 +1101,7 @@
               <OBJECT>
                 <ID name="GetPredictions" mc="Standard.Message" uid="fda01f3d-24d6-44e5-9747-70eef00306a9"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
+                  <ATT name="Argument"><![CDATA[Dataset]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[GetPredictions]]></ATT>
@@ -1229,7 +1229,7 @@
               <OBJECT>
                 <ID name="PrintPredictions" mc="Standard.Message" uid="5942df1f-d58c-4fed-a320-4717d96dc52e"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
+                  <ATT name="Argument"><![CDATA[Dataset]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[PrintPredictions]]></ATT>

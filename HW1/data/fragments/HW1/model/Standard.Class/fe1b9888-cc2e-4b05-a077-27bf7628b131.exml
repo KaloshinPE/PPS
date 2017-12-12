@@ -97,8 +97,8 @@
                 <ID name="X" mc="Standard.Parameter" uid="a58470f4-9d9b-461c-af97-20d1a02dcf99"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
                   <ATT name="DefaultValue"></ATT>
                   <ATT name="IsOrdered">false</ATT>

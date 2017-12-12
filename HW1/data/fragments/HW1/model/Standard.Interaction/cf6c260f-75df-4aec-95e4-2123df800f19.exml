@@ -119,12 +119,12 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="Accumulate" mc="Standard.Message" uid="c71b777b-792d-4d81-a7b2-ca90f9f5da0c"/>
+                <ID name="Dataset" mc="Standard.Message" uid="c71b777b-792d-4d81-a7b2-ca90f9f5da0c"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
+                  <ATT name="Argument"><![CDATA[Dataset]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Name"><![CDATA[Accumulate]]></ATT>
+                  <ATT name="Name"><![CDATA[Dataset]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -298,7 +298,7 @@
               <OBJECT>
                 <ID name="Fit" mc="Standard.Message" uid="a52db42f-a4d8-4642-9a81-939b9f1b8e82"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
+                  <ATT name="Argument"><![CDATA[Dataset]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[Fit]]></ATT>
@@ -426,7 +426,7 @@
               <OBJECT>
                 <ID name="SaveWeights" mc="Standard.Message" uid="c9560ec9-d3c9-424c-b922-ddb14d3d876d"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
+                  <ATT name="Argument"><![CDATA[FileName]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[SaveWeights]]></ATT>
@@ -750,7 +750,7 @@
               <OBJECT>
                 <ID name="ReadDatasets" mc="Standard.Message" uid="8f9acfbb-2b90-48a8-859e-29d393127143"/>
                 <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
+                  <ATT name="Argument"><![CDATA[data, dir]]></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Name"><![CDATA[ReadDatasets]]></ATT>
